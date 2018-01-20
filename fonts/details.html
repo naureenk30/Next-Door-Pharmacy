@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NEXT DOOR PHARMACY</title>
+		<meta charset="utf-8">
+		<link href="payment.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="main">
+		
+		<div class="header">
+		<img src="slide.jpg" style="width:1260px;height:275px;">
+			
+		</div>
+		
+		<div class="container3">
+			<h2 class="details">Fill in these details before making payment</h2><br><br>
+			<form method="post" action="payment.html" name="a1">
+				<br><label id="lb1">FIRST NAME </label>
+				<br><input type="text" name="t1" id="t1" placeholder="Please enter your first name.">
+				
+				<br><label id="lb2">LAST NAME </label>
+				<br><input type="text" name="t2" id="t2" placeholder="Please enter your last name.">
+				
+				<br><label id="lb3">PHONE NUMBER </label>
+				<br><input type="text" name="t3" id="t3" placeholder="Please enter your phone number.">
+				
+				<br><label id="lb4">ADDRESS </label>
+				<br><input type="text" name="t4" id="t4" placeholder="Please enter your address.">
+		</div>
+			
+		<div class="btn">
+			<br><input type="button" name="btn" id="t5" value="SUBMIT" onclick="chk();"/>
+			<br>
+		</div>
+		
+		<div class="footer">
+		</div>
+		
+		<script>
+			function chk()
+			{
+				var a=document.getElementById("t1").value;
+				if(a=="")
+					alert("Enter first name.");
+				
+				var b=document.getElementById("t2").value;
+				if(b=="")
+					alert("Enter last name.");
+				
+				var c=document.getElementById("t3").value;
+				if(c=="")
+					alert("Enter phone number.");
+				
+				var d=document.getElementById("t4").value;
+				if(d=="")
+					alert("Enter delivery address.");
+					
+							
+				document.a1.submit();
+				
+				
+			}
+			
+		</script>
+	</body>
+</html>
+			
+		

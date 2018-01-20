@@ -1,0 +1,99 @@
+h1
+{
+	font-style:underline;
+	color: black;
+	text-align: center; 
+	position:relative;
+	top:15%;
+}
+
+
+.details
+{
+	margin-left:100px;
+	position:absolute;
+	margin-top:0px;
+	text-align:center;
+	height:20px;
+	font-style:bold;
+}
+.header
+{
+	background-image:url(images/s1.jpg);
+	top:0px;
+	left:0px;
+	width:100%;
+	height:260px;
+	position:absolute;
+	background-size:cover;
+}
+input[type=text]
+{
+	width:450px;
+	height:30px;
+	box-sizing:border-box;
+	border: 1px solid black;
+	margin:10px 6px;
+	display:inline-box;
+	padding: 12px 20px;
+}
+.btn
+{
+	margin-left:260px;
+}
+
+
+.container3
+{
+	float:center;
+	margin-left:300px;
+	margin-top:300px;
+	height:375px;
+	width:600px;
+	border:1px solid black;
+	padding:15px;
+}
+
+.container4
+{
+	float : center;
+	margin-left:40px;
+	margin-top:300px;
+	height:200px;
+	width:600px;
+	border:1px solid black;
+	padding:15px;
+}
+
+.container5
+{
+	float : center;
+	margin-left:300px;
+	margin-top:300px;
+	height:100px;
+	width:500px;
+	border:1px solid black;
+	padding:15px;
+}
+.footer
+{
+	
+	position:absolute;
+	background-color:#000062;
+	margin-top:360px;
+	width:100%;
+	color:white;
+	left:0px;
+	height:20%;
+}
+.tiny
+{
+	position:relative;
+	top:20%;
+	left:15%;
+	font-size:14px;
+}
+
+
+
+
